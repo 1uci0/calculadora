@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="calculadora.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Testando</h1>
+    <div class="contas">
+        <label>Digite nos campos:</label><br>
+
+        <div class="checkbox">
+            <input onchange="reducao()" type="checkbox" name="teste" id="A" value="A"> A<br>
+            <input onchange="reducao()" type="checkbox" name="teste" id="B" value="B"> B<br>
+        </div>
+
+        <!--<button id="parametro">Confirmar Parâmetros</button>-->
+
+        <div class="dados de entrada">
+
+            <label for="a">A:</label>
+            <input type="number" id="a" name="a" readonly>
+
+            <label for="a">B:</label>
+            <input type="number" id="b" name="b" readonly>
+
+        </div>
+
+        <div class="resultado">
+
+            <div class="bloco1">
+                <div class="soma">
+                    <label for="s">Soma = </label>
+                    <input type="number" id="s" name="s" readonly>
+                </div>
+
+                <div class="sub">
+                    <label for="sb">Subtração = </label>
+                    <input type="number" id="sb" name="sb" readonly>
+                </div>
+            </div>
+
+            <div class="bloco2">
+                <div class="mult">
+                    <label for="m">Multiplicação = </label>
+                    <input type="number" id="m" name="m" readonly>
+                </div>
+
+                <div class="divisão">
+                    <label for="d">Divisão = </label>
+                    <input type="number" id="d" name="d" readonly>
+                </div>
+            </div>
+        </div>
+
+        <div class="botoes">
+            <div class="calcular">
+                <input type="button" value="Calcular" onclick="calcular()">
+            </div>
+
+            <div class="resetar">
+                <input type="button" value="Deletar" onclick="resetar()">
+            </div>
+        </div>
+
+    </div>
+    <script src="calculadora1.js"></script>
+    <script src="calculadora3.js"></script>
+</body>
+</html>

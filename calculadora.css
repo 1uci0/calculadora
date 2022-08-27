@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(77, 199, 199);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.dados de entrada {
+    display: inline-flex;
+}
+
+.resultado {
+    padding: 10px;
+    background-color:rgb(128, 137, 137);
+    margin-top: 20px;
+}
+
+.bloco1 {
+    display: inline-flex;
+}
+
+.soma {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.sub {
+    margin-right: 50px;
+}
+
+.bloco2 {
+    display: inline-flex;
+}
+
+.mult {
+    margin-right: 50px;
+}
+
+.divisão {
+    margin-right: 50px;
+}
+
+.botoes {
+    display: inline-flex;
+    margin: 5px;
+}
+
+.calcular {
+    margin-right: 15px;
+}
